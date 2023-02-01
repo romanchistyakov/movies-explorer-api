@@ -10,7 +10,7 @@ const routes = require('./routes/index');
 const errorHandler = require('./middlewares/errorhandler');
 const { MONGO_URL } = require('./utils/config');
 
-const { PORT = 3000 } = process.env;
+const { PORT = 3001 } = process.env;
 const app = express();
 
 mongoose.connect(MONGO_URL);
