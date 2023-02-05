@@ -5,6 +5,7 @@ module.exports = (req, res, next) => {
     'mymovie.nomoredomains.icu',
     'http://mymovie.nomoredomains.icu',
     'https://mymovie.nomoredomains.icu',
+    'https://movies-explorer.onrender.com',
   ];
   const { origin } = req.headers;
   const { method } = req;
